@@ -8,7 +8,7 @@ It looks like this if they are:
 
 If they aren't, it doesn't show anything.
 
-To install from the Chrome Web Store, check it out [here](https://chrome.google.com/webstore/detail/pckcklgkhbiookcakkanpgmjnpaopefi/publish-accepted?authuser=1).
+To install from the Chrome Web Store, check it out [here](https://chrome.google.com/webstore/detail/pckcklgkhbiookcakkanpgmjnpaopefi).
 
 ---
 
