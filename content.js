@@ -1,9 +1,9 @@
 var usernameNode = document.querySelector('.vcard-username');
 if (usernameNode) {
     var targetUser = usernameNode.innerText;
-    var currentUserNode = document.querySelector('.header-nav-link.name');
-    if (currentUserNode) {
-        var currentUser = currentUserNode.innerText;
+    var currentUserMeta = document.querySelector("[name='octolytics-actor-login']")
+    if (currentUserMeta) {
+        var currentUser = currentUserMeta.content;
         chrome.runtime.sendMessage({data: {currentUser: currentUser, targetUser: targetUser}}, function(response) {});
     }
 }
